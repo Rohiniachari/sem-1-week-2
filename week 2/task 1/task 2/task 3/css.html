@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web plus academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .custom-list {
+            list-style-type: none; 
+            padding: 0; 
+        }
+        .custom-list li {
+            position: relative; 
+            padding-left: 25px; 
+        }
+        .custom-list li::before {
+            content: "★"; 
+            position: absolute; 
+            left: 0; 
+            color: #FFD700; 
+            font-size: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Web plus academy</h1>
+    <ul class="custom-list">
+        <li>frontend</li>
+        <li>backend</li>
+        <li>dsa</li>
+        <li>softskills</li>
+    </ul>
+</body>
+</html>
